@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #17212b;
+    text-align: center;
+    min-height:800px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    overflow-y: hidden;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://dinhtrinh.com/wp-content/uploads/2021/03/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-2-1024x683.jpg); */
+} 
+
+.container{
+    width:800px;
+    height: 350px;
+    border: 5px solid #fff;
+    padding: 50px;
+}
+.block-1 {
+    display:flex;
+    margin-bottom: 10px;
+}  
+
+@font-face {
+    font-family: digital-7;
+    src: url(./font/digital-7\ \(italic\).ttf);
+    font-weight: nomal;
+    font-style:nomal
+}
+.number-clock {
+    font-family: digital-7;
+    font-size: 200px;
+    height: 185px;
+    color:#41e1df;
+    letter-spacing: 10px;
+}
+.format-hour{
+    /* width: 600px; */
+    text-align: right;
+    font-size:80px;
+    color:#41e1df;
+    padding: 90px 30px 0;
+    font-family: digital-7;
+}
+.day-month-year {
+    font-size: 45px;
+    color: rgba(23, 90, 184, 0.904);
+    font-family: digital-7; 
+    height: 50px;
+    letter-spacing: 4px;
+}
